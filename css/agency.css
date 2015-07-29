@@ -264,6 +264,9 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand .logo{
         height: 50px;
         width: auto;
+        -webkit-transition: height .3s;
+        -moz-transition: height .3s;
+        transition: height .3s;
     }
 }
 
