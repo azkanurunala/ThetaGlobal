@@ -731,6 +731,7 @@ a:active {
 }
 .navbar-collapse{
 	overflow: visible !important;
+	border-color: rgba(255,255,255,.02);
 }
 /* Small menu */
 /*
@@ -4580,7 +4581,7 @@ body.custom-background {
 	}
 	.navbar-inverse .navbar-nav > li {
 		width: 100%;
-		border-bottom: 1px solid #EDEDED;
+		/*border-bottom: 1px solid #EDEDED;*/
 		position: relative;
 		margin: 8px 0 0 0;
 		padding: 0 0 8px 0;
@@ -4819,11 +4820,6 @@ ul.social-buttons li a:active {
 .navbar-brand{
 	font-size: 20px !important;
 }
-
-/*li.soc-btn{
-	border-radius: 1000px !important;
-	background-color: #2222 !important;
-}*/
 
 .top-padding{
 	padding-top: 50px !important;

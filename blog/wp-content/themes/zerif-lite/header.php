@@ -30,6 +30,7 @@
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link href="wp-content\themes\zerif-lite\font-awesome\css\font-awesome.min.css" type="text/css">
+<link href="wp-content\themes\zerif-lite\css\animate.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -89,7 +90,7 @@ endif; ?>
 
 		<div class="container">
 
-			<div class="navbar-header responsive-logo">
+			<div class="navbar-header responsive-logo animated bounceInLeft">
 
 				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
 
@@ -140,13 +141,13 @@ endif; ?>
 			<!-- <a class="navbar-brand" href="http://localhost/blog"><i class="fa fa-globe"></i> Theta Global</a> -->
 			<a class="navbar-brand" href="http://localhost/blog"><?php echo '<img src="'.get_stylesheet_directory_uri().'/images/logo-1.png"' ?>/></a>
 			</div>
-
+			<div class="animated bounceInDown">
 			<nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation"   id="site-navigation">
 
 				<?php wp_nav_menu( array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-right responsive-nav main-nav-list', 'fallback_cb'     => 'zerif_wp_page_menu')); ?>
 
 			</nav>
-
+			</div>
 			    <!-- <nav class="navbar navbar-default navbar-fixed-top ">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
