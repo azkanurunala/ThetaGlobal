@@ -2,12 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /blog/
+RewriteBase /thetaglobal/blog/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /blog/index.php [L]
+RewriteRule . /thetaglobal/blog/index.php [L]
 </IfModule>
-php_value upload_max_filesize 30M
 
 # END WordPress
