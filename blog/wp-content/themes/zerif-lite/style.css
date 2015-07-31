@@ -1465,9 +1465,12 @@ object {
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
-	padding: 0;
 	font-size: 14px !important;
 	line-height: 35px;
+	padding-left: 5px;
+	padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 5px;
 }
 .navbar-inverse .main-navigation ul > li {
 	display: inline;
@@ -1579,9 +1582,11 @@ object {
 	float: none;
 	display: inline-block;
 }
-.navbar-inverse .navbar-nav>li>a:hover, 
-.navbar-inverse .navbar-nav>li>a:focus {
+.navbar-inverse .navbar-nav>li>a:hover{
 	color: #3498db;
+} 
+.navbar-inverse .navbar-nav>li>a:focus {
+	color: #fff;
 }
 .navbar-inverse .navbar-nav>li:last-child>a:hover{
  color: #fff;
@@ -4668,7 +4673,7 @@ body.custom-background {
 		padding-right: 0;
 	}
 	.navbar-inverse .navbar-nav > li > a:hover {
-		color: #fff !important;
+		color: ##3498db;
 	}
 	.this-open > a {
 		color: #3498db !important;
