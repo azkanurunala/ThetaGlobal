@@ -1446,9 +1446,18 @@ object {
 	display: inline;
 	margin-right: 20px;
 	margin-top: 20px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .navbar-inverse .navbar-nav>li:last-child {
 	margin-right: 0 !important;
+	background-color: #3498db;
+   	border-radius: 3px;
+}
+.navbar-nav>li:last-child:hover {
+	background-color: #f1c40f;
 }
 .navbar-inverse .navbar-nav>li>a {
 	text-transform: uppercase;
@@ -1572,7 +1581,11 @@ object {
 }
 .navbar-inverse .navbar-nav>li>a:hover, 
 .navbar-inverse .navbar-nav>li>a:focus {
-	color: #3498db !important;
+	color: #3498db;
+}
+.navbar-inverse .navbar-nav>li:last-child>a:hover{
+ color: #fff;
+
 }
 .navbar-inverse .navbar-nav>li.current>a {
 	color: #3498db;
@@ -4655,7 +4668,7 @@ body.custom-background {
 		padding-right: 0;
 	}
 	.navbar-inverse .navbar-nav > li > a:hover {
-		color: #3498db !important;
+		color: #fff !important;
 	}
 	.this-open > a {
 		color: #3498db !important;

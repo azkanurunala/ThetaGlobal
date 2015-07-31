@@ -139,7 +139,7 @@ endif; ?>
 				?> -->
 
 			<!-- <a class="navbar-brand" href="http://localhost/blog"><i class="fa fa-globe"></i> Theta Global</a> -->
-			<a class="navbar-brand" href="http://localhost/blog"><?php echo '<img src="'.get_stylesheet_directory_uri().'/images/logo-1.png"' ?>/></a>
+			<a class="navbar-brand" href="http://localhost/thetaglobal"><?php echo '<img src="'.get_stylesheet_directory_uri().'/images/logo-1.png"' ?>/></a>
 			</div>
 			<div class="animated bounceInDown">
 			<nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation"   id="site-navigation">
